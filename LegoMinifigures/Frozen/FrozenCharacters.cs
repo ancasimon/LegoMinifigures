@@ -31,7 +31,14 @@ namespace LegoMinifigures.Frozen
 
         public void ReOrderBodyParts()
         {
-            throw new NotImplementedException();
+            if(Name == "Olaf")
+            {
+                Console.WriteLine($"Yes, {Name} can reorder his body parts.");
+            }
+            else
+            {
+                throw new NotImplementedException();
+            }
         }
 
         public void TalksToReindeer()
